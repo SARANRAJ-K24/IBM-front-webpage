@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+.IBM-logo{
+    padding-left: 20px;
+    float: left;
+    width: 5%;
+    color:white;
+}
+img{
+    width: 100%;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width:max-content;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.header{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    object-fit: cover;
+}
+.search-bar input[type=text] {
+    float:right;
+    padding: 6px;
+    margin-top: none;
+    margin-right: 40px;
+    border: none;
+    font-size: 17px;
+}
+    .search-bar input[type=text] {
+        border: 1px solid #ccc;  
+        }
+   
+.menu-option{
+    width: 100%;
+    float: left;
+}
+.menu-button{
+    width: 2%;
+    height: 30px;
+    float: right;
+} 
+
+.menu{
+    width: auto;
+    text-decoration: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+}
+.button {
+    background-color:white;
+    border: none;
+    color:black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: auto
+    
+    
+}
+
+
+.background-image{
+    width: 100%;
+    position: relative;
+}
+
+.bottom-top{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 150px;
+    padding-bottom: 50px;
+}
+.bg{
+    background-color: blue;
+    padding: 16px;
+}
+
+.empty-layout{
+    width: 25%;
+    float: left;
+}
+.layout{
+    float: left;
+    object-fit: cover;
+    position: relative; 
+    background-color: #ccc; 
+}
+
+.card-text{
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
